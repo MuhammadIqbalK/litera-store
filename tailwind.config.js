@@ -4,7 +4,10 @@ export const content = [
 export const theme = {
   extend: {
     colors: {
-      'custom-blue': '#1e40af', // contoh menambahkan warna kustom
+      "custom-blue": "#1e40af", // contoh menambahkan warna kustom
+    },
+    fontFamily: {
+      roboto: ["Roboto", "sans-serif"],
     },
   },
 };

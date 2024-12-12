@@ -1,13 +1,18 @@
-import "./index.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
-      <Header />
+      <div className="min-h-screen">
+        <Header />
 
-      <Footer />
+        <div className="flex">
+          <h1 className="text-2xl text-center">this is the body</h1>
+        </div>
+
+        <Footer />
+      </div>
     </>
   );
 }
